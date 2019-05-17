@@ -3,3 +3,7 @@ server:
 spring:
   application:
     name: spring-cloud-config-client
+
+management:
+  security:
+    enabled: false
