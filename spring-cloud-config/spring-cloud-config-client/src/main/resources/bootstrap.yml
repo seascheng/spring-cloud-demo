@@ -7,5 +7,7 @@ spring:
       label: master
 
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: refresh
