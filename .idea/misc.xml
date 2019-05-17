@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-product/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-order/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-order/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-product/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrx-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-server/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-cloud-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-ribbon/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

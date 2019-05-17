@@ -1,0 +1,21 @@
+server:
+  port: 7072
+
+
+spring:
+  application:
+    name: eureka-client
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker0
+        - veth.*
+      preferred-networks:
+        - 127.0.0.1
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+  client:
+    service-url:
+      defaultZone: http://localhost:7071/eureka/

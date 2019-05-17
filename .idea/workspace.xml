@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5612f56e-3dda-4cbc-970f-e87ced6ac9a3" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-product/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-order/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-feign/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-order/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-product/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul/demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrx-feign/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-config/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/java/cn/casair/springcloudhystrixdashboard/SpringCloudHystrixDashboardApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/java/cn/casair/springcloudhystrixdashboard/api/ProducerClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="18" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8500</find>
+      <find>register</find>
+      <find>actuator</find>
+      <find>hystrix</find>
+      <find>WebEndpointProperties</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-cloud-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-product/src/main/java/cn/casair/springcloudconsulproduct/SpringCloudConsulProductApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-product/src/main/java/cn/casair/springcloudconsulproduct/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-product/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/java/cn/casair/springcloudconsulproducer/SpringCloudConsulProducerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/demo/src/main/java/cn/casair/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/controller/ProducerClient.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/java/cn/casair/springcloudconsulproducer/config/ConsulConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/config/ConsulConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/SpringCloudConsulConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer2/config/ConsulConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer2/SpringCloudConsulProducer2Application.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrxfeign/controller/FeignController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrxfeign/api/ProducerClient.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/SpringCloudHystrxFeignApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrxfeign/SpringCloudHystrxFeignApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrxfeign/SpringCloudHystrixFeignApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer2/controller/ProducerController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/java/cn/casair/springcloudconsulproducer/controller/ProducerController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/utils/FeignClientFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/utils/ProducerClientFallFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/api/ProducerClientFallFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/api/ProductClientFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/controller/FeignController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/SpringCloudHystrixFeignApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/api/ProducerClient.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/java/cn/casair/springcloudhystrixdashboard/SpringCloudHystrixFeignApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/java/cn/casair/springcloudhystrixdashboard/SpringCloudHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-client/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="39" />
+    <option name="y" value="23" />
+    <option name="width" value="1401" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558078540546" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-cloud-eureka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-cloud-hystrix/" />
+      <recent name="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer2" />
+      <recent name="$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudHystrixDashboardApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="spring-cloud-consul-producer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="spring-cloud-consul-producer" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsulConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-consul-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudconsulconsumer.SpringCloudConsulConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsulProducer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-consul-producer2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudconsulproducer2.SpringCloudConsulProducer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsulProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-consul-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudconsulproducer.SpringCloudConsulProducerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudeurekaclient.SpringCloudEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudeurekaserver.SpringCloudEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudFeignOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-feign-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudfeignorder.SpringCloudFeignOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-hystrix-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.casair.springcloudhystrixdashboard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudhystrixdashboard.SpringCloudHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHystrxFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-hystrix-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudhystrixdashboard.SpringCloudHystrixFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudRibbonOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-ribbon-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudribbonorder.SpringCloudRibbonOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudRibbonProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-ribbon-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.casair.springcloudribbonproduct.SpringCloudRibbonProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringCloudEurekaClientApplication" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudRibbonProductApplication" />
+      <item itemvalue="Spring Boot.SpringCloudRibbonOrderApplication" />
+      <item itemvalue="Spring Boot.SpringCloudFeignOrderApplication" />
+      <item itemvalue="Spring Boot.SpringCloudConsulProducerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudConsulConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudHystrxFeignApplication" />
+      <item itemvalue="Spring Boot.SpringCloudConsulProducer2Application" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixDashboardApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringCloudHystrixDashboardApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5612f56e-3dda-4cbc-970f-e87ced6ac9a3" name="Default Changelist" comment="" />
+      <created>1557975419914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557975419914</updated>
+      <workItem from="1557975422956" duration="2086000" />
+      <workItem from="1557977909484" duration="919000" />
+      <workItem from="1557980802562" duration="11151000" />
+      <workItem from="1557997377512" duration="4384000" />
+      <workItem from="1558002995653" duration="252000" />
+      <workItem from="1558004098057" duration="716000" />
+      <workItem from="1558005742290" duration="5111000" />
+      <workItem from="1558016130240" duration="4641000" />
+      <workItem from="1558060864621" duration="659000" />
+      <workItem from="1558061568443" duration="9309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39228000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30475503" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39950678" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3292232" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/demo/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-order/src/main/java/cn/casair/springcloudribbonorder/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="41" column="72" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-order/src/main/java/cn/casair/springcloudribbonorder/SpringCloudRibbonOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-order/src/main/java/cn/casair/springcloudribbonorder/config/RibbonRuleConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-product/src/main/java/cn/casair/springcloudribbonproduct/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/java/cn/casair/springcloudconsulproducer/config/ConsulConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/config/ConsulConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/controller/ProducerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/java/cn/casair/springcloudconsulconsumer/SpringCloudConsulConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix /pom.xml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer/config/ConsulConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer2/config/ConsulConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-order/src/main/java/cn/casair/springcloudfeignorder/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-order/src/main/java/cn/casair/springcloudfeignorder/api/ProductClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5-sources.jar!/com/netflix/loadbalancer/LoadBalancerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="482" selection-start-line="482" selection-end-line="482" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer2/SpringCloudConsulProducer2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/java/cn/casair/springcloudconsulproducer/SpringCloudConsulProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer2/src/main/java/cn/casair/springcloudconsulproducer2/controller/ProducerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/java/cn/casair/springcloudconsulproducer/controller/ProducerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixfeign/api/ProducerClientFallFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#439#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixdashboard/SpringCloudHystrixFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixdashboard/api/ProductClientFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#404#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixdashboard/api/ProducerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/java/cn/casair/springcloudhystrixdashboard/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consul/spring-cloud-consul-producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/java/cn/casair/springcloudhystrixdashboard/api/ProducerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/java/cn/casair/springcloudhystrixdashboard/SpringCloudHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-cloud-hystrx-dasboard</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

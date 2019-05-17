@@ -1,0 +1,28 @@
+server:
+  port: 8514
+
+#  consul 环境
+spring:
+  application:
+    name: hystrix-dashboard
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        tags: version=1.0,author=seas
+        healthCheckInterval: 5s
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+
+# 没有识别到这个配置，但也要写上。。。
+feign.hystrix.enabled: true
+
+# Hystrix网址：http://localhost:8514/hystrix
+# Proxy opening connection to: http://localhost:8514/actuator/hystrix.stream
+# 参考：https://my.oschina.net/u/3651261/blog/1841980
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

@@ -1,0 +1,18 @@
+server:
+  port: 8510
+
+#  consul 环境
+spring:
+  application:
+    name: consul-producer
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      enabled: true
+      discovery:
+        tags: version=1.0,author=seas
+        healthCheckInterval: 5s
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+        enabled: true

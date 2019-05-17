@@ -1,0 +1,17 @@
+server:
+  port: 8512
+
+#  consul 环境
+spring:
+  application:
+    name: consul-consumer
+
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        tags: version=1.0,author=seas
+        healthCheckInterval: 5s
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+        register: false

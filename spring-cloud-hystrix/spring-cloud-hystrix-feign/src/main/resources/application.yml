@@ -1,0 +1,19 @@
+server:
+  port: 8513
+
+#  consul 环境
+spring:
+  application:
+    name: hystrix-feign
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        tags: version=1.0,author=seas
+        healthCheckInterval: 5s
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+
+# 没有识别到这个配置，但也要写上。。。
+feign.hystrix.enabled: true
