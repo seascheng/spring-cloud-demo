@@ -12,7 +12,8 @@
     <artifactId>spring-cloud-config</artifactId>
 
     <modules>
-
+        <module>spring-cloud-config-client</module>
+        <module>spring-cloud-config-server</module>
     </modules>
 
     <dependencyManagement>

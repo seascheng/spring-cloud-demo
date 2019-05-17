@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: config
+      profile: dev #使用config.dev 配置文件
+      uri: http://localhost:8520/
+      label: master

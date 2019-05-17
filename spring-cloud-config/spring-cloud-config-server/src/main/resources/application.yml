@@ -1,0 +1,13 @@
+server:
+  port: 8520
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/seascheng/spring-cloud-demo.git # 必须使用https
+          search-paths: config-repo
+          username: chengweipeng123@163.com
+          password: chengwp123
