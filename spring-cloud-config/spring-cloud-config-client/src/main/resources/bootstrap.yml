@@ -5,3 +5,7 @@ spring:
       profile: dev #使用config.dev 配置文件
       uri: http://localhost:8520/
       label: master
+
+management:
+  security:
+    enabled: false
