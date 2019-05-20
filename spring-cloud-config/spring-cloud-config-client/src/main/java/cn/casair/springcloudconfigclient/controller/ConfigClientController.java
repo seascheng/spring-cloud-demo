@@ -22,6 +22,7 @@ public class ConfigClientController {
 
     @RequestMapping("/env")
     public String env() {
+        System.out.println("当前使用的env："+this.env);
         return this.env;
     }
 }
