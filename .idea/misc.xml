@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway-gw/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-eureka-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

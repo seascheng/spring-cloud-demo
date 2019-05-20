@@ -16,8 +16,11 @@
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-eureka-client" />
         <module name="spring-cloud-eureka-server" />
+        <module name="spring-cloud-eureka-server (1)" />
         <module name="spring-cloud-feign" />
         <module name="spring-cloud-feign-order" />
+        <module name="spring-cloud-gateway" />
+        <module name="spring-cloud-gateway-gw" />
         <module name="spring-cloud-hystrix" />
         <module name="spring-cloud-hystrix-feign" />
         <module name="spring-cloud-ribbon" />
@@ -33,6 +36,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="spring-cloud-eureka-server (1)" target="1.5" />
       <module name="spring-cloud-feign" target="1.5" />
       <module name="spring-cloud-ribbon" target="1.5" />
       <module name="springcloudfeign" target="1.5" />
@@ -47,6 +51,7 @@
       <module name="spring-cloud-eureka-client" options="" />
       <module name="spring-cloud-eureka-server" options="" />
       <module name="spring-cloud-feign-order" options="" />
+      <module name="spring-cloud-gateway-gw" options="-parameters" />
       <module name="spring-cloud-hystrix-feign" options="" />
       <module name="spring-cloud-ribbon" options="" />
       <module name="spring-cloud-ribbon-order" options="" />
