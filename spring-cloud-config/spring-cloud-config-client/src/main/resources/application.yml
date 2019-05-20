@@ -3,3 +3,9 @@ server:
 spring:
   application:
     name: spring-cloud-config-client
+
+  bus:
+    enabled: true
+    trace:
+      enabled: true
+

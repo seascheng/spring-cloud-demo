@@ -6,6 +6,14 @@ spring:
       uri: http://localhost:8520/
       label: master
 
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+  client:
+    service-url:
+      defaultZone: http://localhost:7071/eureka/
+
 management:
   endpoints:
     web:

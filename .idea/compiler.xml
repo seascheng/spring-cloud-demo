@@ -19,16 +19,16 @@
         <module name="spring-cloud-feign" />
         <module name="spring-cloud-feign-order" />
         <module name="spring-cloud-hystrix" />
-        <module name="spring-cloud-hystrix-dashboard" />
+        <module name="spring-cloud-hystrix-feign" />
         <module name="spring-cloud-ribbon" />
         <module name="spring-cloud-ribbon-order" />
         <module name="spring-cloud-ribbon-product" />
       </profile>
       <profile name="Annotation profile for spring-cloud-demo" enabled="true">
-        <sourceOutputDir name="../spring-cloud-hystrix-dashboard/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../spring-cloud-hystrix-dashboard/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../spring-cloud-hystrix-feign/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-cloud-hystrix-feign/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-hystrix-feign" />
+        <module name="spring-cloud-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
