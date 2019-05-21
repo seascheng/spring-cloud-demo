@@ -1,0 +1,75 @@
+
+server:
+  port: 8530
+
+spring:
+  application:
+    name: gw-eureka-gateway
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker0
+        - veth.*
+      preferred-networks:
+        - 127.0.0.1
+    gateway:
+      discovery:
+        locator:
+          enabled: true  #是否与服务注册于发现组件进行结合，通过 serviceId 转发到具体的服务实例。默认为 false，设为 true 便开启通过服务中心的自动根据 serviceId 创建路由的功能。
+      redis:
+        host: localhost
+        password:
+        port: 6379
+      routes:
+        - id: baidu     #====转发
+          uri: http://www.baidu.com/
+          predicates:
+            - Path=/baidu
+        - id: add_request_parameter_route  #====增加参数
+          uri: lb://GW-EUREKA-PRODUCER
+          filters:
+            - AddRequestParameter=foo, bar
+          predicates:
+            - Method=GET
+        - id: requestratelimiter_route  #====限流
+          uri: lb://GW-EUREKA-PRODUCER
+          filters:
+            - name: RequestRateLimiter #必须为RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 10  #允许用户每秒处理多少个请求
+                redis-rate-limiter.burstCapacity: 20  #令牌桶的容量，允许在一秒钟内完成的最大请求数
+                key-resolver: "#{@userKeyResolver}"  #使用 SpEL 按名称引用 bean
+          predicates:
+            - Method=GET
+        - id: hystrix_route   #====熔断，使用Hystrix
+          uri: lb://GW-EUREKA-PRODUCER
+          predicates:
+          - Path=/consumingserviceendpoint
+          filters:
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/incaseoffailureusethis   #熔断 回调
+
+        - id: retry_test    #====重试
+          uri: lb://GW-EUREKA-PRODUCER
+          predicates:
+            - Path=/retry
+          filters:
+            - name: Retry
+              args:
+                retries: 3  #重试次数，默认值是 3 次
+                statuses: BAD_GATEWAY #HTTP 的状态返回码
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+  client:
+    service-url:
+      defaultZone: http://localhost:7071/eureka/
+
+
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

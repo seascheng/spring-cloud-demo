@@ -24,6 +24,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/spring-cloud-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gw-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-ribbon/pom.xml" />
       </set>
     </option>

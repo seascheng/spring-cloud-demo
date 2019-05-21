@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway-gw" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gw-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-order" charset="UTF-8" />

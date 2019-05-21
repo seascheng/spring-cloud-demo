@@ -13,6 +13,9 @@
 
     <modules>
         <module>spring-cloud-gateway-gw</module>
+        <module>spring-cloud-gw-eureka-producer-1</module>
+        <module>spring-cloud-gw-eureka-producer-2</module>
+        <module>spring-cloud-gw-eureka-consumer</module>
     </modules>
 
 

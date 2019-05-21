@@ -1,4 +1,4 @@
-package cn.casair.springcloudgatewaygw;
+package cn.casair.springcloudgweurekaproducer1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SpringCloudGatewayGwApplication {
+public class SpringCloudGwEurekaProducer1Application {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringCloudGatewayGwApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudGwEurekaProducer1Application.class, args);
+	}
 
 }

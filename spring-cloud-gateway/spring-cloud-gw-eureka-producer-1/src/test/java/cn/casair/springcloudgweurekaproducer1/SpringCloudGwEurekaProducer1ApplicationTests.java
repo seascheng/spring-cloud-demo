@@ -1,4 +1,4 @@
-package cn.casair.springcloudgatewaygw;
+package cn.casair.springcloudgweurekaproducer1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,11 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringCloudGatewayGwApplicationTests {
+public class SpringCloudGwEurekaProducer1ApplicationTests {
 
-    @Test
-    public void contextLoads() {
-//        http://localhost:8530/GW-EUREKA-PRODUCER/producer/321
-    }
+	@Test
+	public void contextLoads() {
+	}
 
 }
