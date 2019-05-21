@@ -24,16 +24,19 @@
         <module name="spring-cloud-gw-eureka-producer-1" />
         <module name="spring-cloud-gw-eureka-producer-2" />
         <module name="spring-cloud-hystrix" />
-        <module name="spring-cloud-hystrix-feign" />
+        <module name="spring-cloud-hystrix-dashboard" />
         <module name="spring-cloud-ribbon" />
         <module name="spring-cloud-ribbon-order" />
         <module name="spring-cloud-ribbon-product" />
+        <module name="spring-cloud-sleuth-a" />
+        <module name="spring-cloud-sleuth-b" />
+        <module name="spring-cloud-zipkin" />
       </profile>
       <profile name="Annotation profile for spring-cloud-demo" enabled="true">
-        <sourceOutputDir name="../spring-cloud-hystrix-feign/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../spring-cloud-hystrix-feign/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../spring-cloud-hystrix-dashboard/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-cloud-hystrix-dashboard/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-hystrix-dashboard" />
+        <module name="spring-cloud-hystrix-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +44,7 @@
       <module name="spring-cloud-feign" target="1.5" />
       <module name="spring-cloud-gw-eureka-server" target="1.8" />
       <module name="spring-cloud-ribbon" target="1.5" />
+      <module name="spring-cloud-zipkin-server" target="1.5" />
       <module name="springcloudfeign" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -59,6 +63,8 @@
       <module name="spring-cloud-ribbon" options="" />
       <module name="spring-cloud-ribbon-order" options="" />
       <module name="spring-cloud-ribbon-product" options="" />
+      <module name="spring-cloud-sleuth-a" options="" />
+      <module name="spring-cloud-sleuth-b" options="" />
     </option>
   </component>
 </project>

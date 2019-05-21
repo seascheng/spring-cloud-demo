@@ -12,5 +12,7 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-ribbon/spring-cloud-ribbon-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-sleuth-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-sleuth-b" charset="UTF-8" />
   </component>
 </project>

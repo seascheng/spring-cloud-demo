@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway-gw/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-sleuth-a/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-sleuth-b/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -26,6 +28,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-feign/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gw-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zipkin/spring-cloud-zipkin-server/pom.xml" />
       </set>
     </option>
   </component>
